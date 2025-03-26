@@ -35,7 +35,7 @@ import {
   INDENT_LIST_KEYS,
   ListStyleType,
   toggleIndentList,
-} from '@udecode/plate-indent-list';
+} from '@seal.run/plate-indent-list';
 import { openNextToggles, TogglePlugin } from '@udecode/plate-toggle/react';
 import { ParagraphPlugin } from '@udecode/plate/react';
 

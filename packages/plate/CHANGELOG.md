@@ -56,7 +56,7 @@
   "@udecode/plate-highlight": "42.0.0",
   "@udecode/plate-horizontal-rule": "42.0.0",
   "@udecode/plate-indent": "42.0.0",
-  "@udecode/plate-indent-list": "42.0.0",
+  "@seal.run/plate-indent-list": "42.0.0",
   "@udecode/plate-kbd": "42.0.0",
   "@udecode/plate-layout": "42.0.0",
   "@udecode/plate-line-height": "42.0.0",
@@ -98,7 +98,7 @@
   export * from '@udecode/plate-highlight';
   export * from '@udecode/plate-horizontal-rule';
   export * from '@udecode/plate-indent';
-  export * from '@udecode/plate-indent-list';
+  export * from '@seal.run/plate-indent-list';
   export * from '@udecode/plate-kbd';
   export * from '@udecode/plate-layout';
   export * from '@udecode/plate-line-height';
@@ -135,7 +135,7 @@
   export * from '@udecode/plate-layout/react';
   export * from '@udecode/plate-slash-command/react';
   export * from '@udecode/plate-indent/react';
-  export * from '@udecode/plate-indent-list/react';
+  export * from '@seal.run/plate-indent-list/react';
   export * from '@udecode/plate-kbd/react';
   export * from '@udecode/plate-line-height/react';
   export * from '@udecode/plate-link/react';

@@ -46,9 +46,9 @@
     "typecheck": "yarn p:typecheck"
   },
   "dependencies": {
+    "@seal.run/plate-indent-list": "44.0.0",
     "@udecode/plate-heading": "44.0.0",
     "@udecode/plate-indent": "44.0.0",
-    "@udecode/plate-indent-list": "44.0.0",
     "@udecode/plate-media": "44.0.0",
     "@udecode/plate-table": "44.0.0",
     "validator": "^13.12.0"

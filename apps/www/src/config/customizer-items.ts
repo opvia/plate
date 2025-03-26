@@ -37,7 +37,7 @@ import {
 import { TocPlugin } from '@udecode/plate-heading/react';
 import { HighlightPlugin } from '@udecode/plate-highlight/react';
 import { HorizontalRulePlugin } from '@udecode/plate-horizontal-rule/react';
-import { IndentListPlugin } from '@udecode/plate-indent-list/react';
+import { IndentListPlugin } from '@seal.run/plate-indent-list/react';
 import { IndentPlugin } from '@udecode/plate-indent/react';
 import { JuicePlugin } from '@udecode/plate-juice';
 import { KbdPlugin } from '@udecode/plate-kbd/react';
@@ -746,7 +746,7 @@ export const customizerItems: Record<string, SettingPlugin> = {
     conflicts: ['list'],
     dependencies: [IndentPlugin.key],
     label: 'Indent List',
-    npmPackage: '@udecode/plate-indent-list',
+    npmPackage: '@seal.run/plate-indent-list',
     pluginFactory: 'IndentListPlugin',
     pluginOptions: [`inject: { targetPlugins: ['p', 'h1', 'h2', 'h3'] },`],
     reactImport: true,

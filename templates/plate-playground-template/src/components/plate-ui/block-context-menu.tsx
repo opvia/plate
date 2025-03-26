@@ -6,7 +6,7 @@ import { ParagraphPlugin, useEditorPlugin } from '@udecode/plate/react';
 import { AIChatPlugin } from '@udecode/plate-ai/react';
 import { BlockquotePlugin } from '@udecode/plate-block-quote/react';
 import { HEADING_KEYS } from '@udecode/plate-heading';
-import { IndentListPlugin } from '@udecode/plate-indent-list/react';
+import { IndentListPlugin } from '@seal.run/plate-indent-list/react';
 import {
   BLOCK_CONTEXT_MENU_ID,
   BlockMenuPlugin,

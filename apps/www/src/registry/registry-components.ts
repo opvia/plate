@@ -128,7 +128,7 @@ const plugins: Registry['items'] = [
       '@udecode/plate-heading',
       '@udecode/plate-highlight',
       '@udecode/plate-horizontal-rule',
-      '@udecode/plate-indent-list',
+      '@seal.run/plate-indent-list',
       '@udecode/plate-toggle',
     ],
     files: [
@@ -325,7 +325,7 @@ const plugins: Registry['items'] = [
       '@udecode/plate-code-block',
       '@udecode/plate-heading',
       '@udecode/plate-indent',
-      '@udecode/plate-indent-list',
+      '@seal.run/plate-indent-list',
       '@udecode/plate-toggle',
     ],
     files: [
@@ -390,7 +390,7 @@ const plugins: Registry['items'] = [
       '@udecode/plate-callout',
       '@udecode/plate-code-block',
       '@udecode/plate-heading',
-      '@udecode/plate-indent-list',
+      '@seal.run/plate-indent-list',
       '@udecode/plate-reset-node',
     ],
     files: [
@@ -478,7 +478,7 @@ export const components: Registry['items'] = [
       '@udecode/plate-code-block',
       '@udecode/plate-date',
       '@udecode/plate-heading',
-      '@udecode/plate-indent-list',
+      '@seal.run/plate-indent-list',
       '@udecode/plate-layout',
       '@udecode/plate-link',
       '@udecode/plate-math',

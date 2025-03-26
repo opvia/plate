@@ -24,7 +24,7 @@ module.exports = {
   '@udecode/plate-highlight': 'highlight',
   '@udecode/plate-horizontal-rule': 'horizontal-rule',
   '@udecode/plate-indent': 'indent',
-  '@udecode/plate-indent-list': 'indent-list',
+  '@seal.run/plate-indent-list': 'indent-list',
   '@udecode/plate-juice': 'juice',
   '@udecode/plate-kbd': 'kbd',
   '@udecode/plate-line-height': 'line-height',

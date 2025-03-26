@@ -7,7 +7,7 @@ import {
   ListStyleType,
   someIndentList,
   toggleIndentList,
-} from '@udecode/plate-indent-list';
+} from '@seal.run/plate-indent-list';
 import { List, ListOrdered } from 'lucide-react';
 
 import {

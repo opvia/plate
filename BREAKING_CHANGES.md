@@ -163,7 +163,7 @@ No breaking changes. Upgraded all dependencies to the latest version.
   "@udecode/plate-highlight": "42.0.0",
   "@udecode/plate-horizontal-rule": "42.0.0",
   "@udecode/plate-indent": "42.0.0",
-  "@udecode/plate-indent-list": "42.0.0",
+  "@seal.run/plate-indent-list": "42.0.0",
   "@udecode/plate-kbd": "42.0.0",
   "@udecode/plate-layout": "42.0.0",
   "@udecode/plate-line-height": "42.0.0",
@@ -205,7 +205,7 @@ No breaking changes. Upgraded all dependencies to the latest version.
   export * from '@udecode/plate-highlight';
   export * from '@udecode/plate-horizontal-rule';
   export * from '@udecode/plate-indent';
-  export * from '@udecode/plate-indent-list';
+  export * from '@seal.run/plate-indent-list';
   export * from '@udecode/plate-kbd';
   export * from '@udecode/plate-layout';
   export * from '@udecode/plate-line-height';
@@ -242,7 +242,7 @@ No breaking changes. Upgraded all dependencies to the latest version.
   export * from '@udecode/plate-layout/react';
   export * from '@udecode/plate-slash-command/react';
   export * from '@udecode/plate-indent/react';
-  export * from '@udecode/plate-indent-list/react';
+  export * from '@seal.run/plate-indent-list/react';
   export * from '@udecode/plate-kbd/react';
   export * from '@udecode/plate-line-height/react';
   export * from '@udecode/plate-link/react';
@@ -664,13 +664,13 @@ No breaking changes. Upgraded all dependencies to the latest version.
   - Remove `props` from `useDropLine`. Set `contentEditable={false}` to your drop line element
   - Remove `withDraggable`, `useWithDraggable`. Use [`DraggableAboveNodes`](https://github.com/udecode/plate/pull/3878/files#diff-493c12ebed9c3ef9fd8c3a723909b18ad439a448c0132d2d93e5341ee0888ad2) instead
 
-## @udecode/plate-indent-list@41.0.0
+## @seal.run/plate-indent-list@41.0.0
 
 ### Major Changes
 
 - [#3830](https://github.com/udecode/plate/pull/3830) by [@felixfeng33](https://github.com/felixfeng33) –
   - Move `render.belowNodes` from `IndentListPlugin` to `BaseIndentListPlugin`. Props type for `listStyleTypes.liComponent` and `listStyleTypes.markerComponent` options is now `SlateRenderElementProps` instead of `PlateRenderElementProps`
-  - Move `someIndentList`, `someIndentTodo` from `@udecode/plate-indent-list/react` to `@udecode/plate-indent-list`
+  - Move `someIndentList`, `someIndentTodo` from `@seal.run/plate-indent-list/react` to `@seal.run/plate-indent-list`
 
 ## @udecode/plate-layout@41.0.2
 
@@ -1527,7 +1527,7 @@ We recommend to upgrade to `@udecode/plate-core@38.1.0` in one-go.
 - [#3420](https://github.com/udecode/plate/pull/3420) by [@zbeyens](https://github.com/zbeyens) –
   - `createIndentPlugin` -> `IndentPlugin`
 
-## @udecode/plate-indent-list@37.0.0
+## @seal.run/plate-indent-list@37.0.0
 
 ### Major Changes
 

@@ -34,7 +34,7 @@ import { BaseHeadingPlugin, HEADING_KEYS } from '@udecode/plate-heading';
 import { BaseHighlightPlugin } from '@udecode/plate-highlight';
 import { BaseHorizontalRulePlugin } from '@udecode/plate-horizontal-rule';
 import { BaseIndentPlugin } from '@udecode/plate-indent';
-import { BaseIndentListPlugin } from '@udecode/plate-indent-list';
+import { BaseIndentListPlugin } from '@seal.run/plate-indent-list';
 import { JuicePlugin } from '@udecode/plate-juice';
 import { BaseKbdPlugin } from '@udecode/plate-kbd';
 import { BaseColumnPlugin } from '@udecode/plate-layout';

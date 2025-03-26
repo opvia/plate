@@ -7,7 +7,7 @@ import type { DropdownMenuProps } from '@radix-ui/react-dropdown-menu';
 import { BlockquotePlugin } from '@udecode/plate-block-quote/react';
 import { CodeBlockPlugin } from '@udecode/plate-code-block/react';
 import { HEADING_KEYS } from '@udecode/plate-heading';
-import { INDENT_LIST_KEYS, ListStyleType } from '@udecode/plate-indent-list';
+import { INDENT_LIST_KEYS, ListStyleType } from '@seal.run/plate-indent-list';
 import { TogglePlugin } from '@udecode/plate-toggle/react';
 import {
   ParagraphPlugin,

@@ -38,7 +38,7 @@ import { HEADING_KEYS } from '@udecode/plate-heading';
 import { HeadingPlugin } from '@udecode/plate-heading/react';
 import { HighlightPlugin } from '@udecode/plate-highlight/react';
 import { HorizontalRulePlugin } from '@udecode/plate-horizontal-rule/react';
-import { IndentListPlugin } from '@udecode/plate-indent-list/react';
+import { IndentListPlugin } from '@seal.run/plate-indent-list/react';
 import { IndentPlugin } from '@udecode/plate-indent/react';
 import { JuicePlugin } from '@udecode/plate-juice';
 import { KbdPlugin } from '@udecode/plate-kbd/react';

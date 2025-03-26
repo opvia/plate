@@ -43,7 +43,7 @@ import {
 import { BaseHighlightPlugin } from '@udecode/plate-highlight';
 import { BaseHorizontalRulePlugin } from '@udecode/plate-horizontal-rule';
 import { BaseIndentPlugin } from '@udecode/plate-indent';
-import { BaseIndentListPlugin } from '@udecode/plate-indent-list';
+import { BaseIndentListPlugin } from '@seal.run/plate-indent-list';
 import { BaseKbdPlugin } from '@udecode/plate-kbd';
 import { BaseColumnItemPlugin, BaseColumnPlugin } from '@udecode/plate-layout';
 import { BaseLineHeightPlugin } from '@udecode/plate-line-height';

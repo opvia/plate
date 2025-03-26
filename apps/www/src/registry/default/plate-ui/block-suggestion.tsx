@@ -23,8 +23,8 @@ import { CodeBlockPlugin } from '@udecode/plate-code-block/react';
 import { HEADING_KEYS } from '@udecode/plate-heading';
 import { TocPlugin } from '@udecode/plate-heading/react';
 import { HorizontalRulePlugin } from '@udecode/plate-horizontal-rule/react';
-import { INDENT_LIST_KEYS, ListStyleType } from '@udecode/plate-indent-list';
-import { IndentListPlugin } from '@udecode/plate-indent-list/react';
+import { INDENT_LIST_KEYS, ListStyleType } from '@seal.run/plate-indent-list';
+import { IndentListPlugin } from '@seal.run/plate-indent-list/react';
 import { ColumnPlugin } from '@udecode/plate-layout/react';
 import { EquationPlugin } from '@udecode/plate-math/react';
 import {

@@ -21,7 +21,7 @@ import {
 import { BaseHeadingPlugin, HEADING_KEYS } from '@udecode/plate-heading';
 import { BaseHorizontalRulePlugin } from '@udecode/plate-horizontal-rule';
 import { BaseIndentPlugin } from '@udecode/plate-indent';
-import { BaseIndentListPlugin } from '@udecode/plate-indent-list';
+import { BaseIndentListPlugin } from '@seal.run/plate-indent-list';
 import { BaseLinkPlugin } from '@udecode/plate-link';
 import { MarkdownPlugin } from '@udecode/plate-markdown';
 import { usePlateEditor } from '@udecode/plate/react';

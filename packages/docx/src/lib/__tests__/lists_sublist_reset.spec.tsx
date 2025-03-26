@@ -1,6 +1,6 @@
 /** @jsx jsxt */
 
-import { BaseIndentListPlugin } from '@udecode/plate-indent-list';
+import { BaseIndentListPlugin } from '@seal.run/plate-indent-list';
 import { jsxt } from '@udecode/plate-test-utils';
 
 import { getDocxTestName, testDocxDeserializer } from './testDocxDeserializer';

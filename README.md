@@ -2,6 +2,8 @@
 Plate
 </h1>
 
+## N.B. Seal specific instructions [here](./README_seal-indent-list.md).
+
 <p>
 <div align="center">
   <a href="https://www.npmjs.com/package/@udecode/plate-core"><img src="https://img.shields.io/npm/dm/@udecode/plate-core.svg" alt="Total Downloads"></a>

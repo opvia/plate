@@ -16,7 +16,7 @@ import { ExcalidrawPlugin } from '@udecode/plate-excalidraw/react';
 import { HEADING_KEYS } from '@udecode/plate-heading';
 import { TocPlugin } from '@udecode/plate-heading/react';
 import { HorizontalRulePlugin } from '@udecode/plate-horizontal-rule/react';
-import { INDENT_LIST_KEYS, ListStyleType } from '@udecode/plate-indent-list';
+import { INDENT_LIST_KEYS, ListStyleType } from '@seal.run/plate-indent-list';
 import { LinkPlugin } from '@udecode/plate-link/react';
 import {
   EquationPlugin,

@@ -2,7 +2,7 @@
   "dependencies": [
     "@udecode/plate-basic-marks",
     "@udecode/plate-font",
-    "@udecode/plate-indent-list",
+    "@seal.run/plate-indent-list",
     "@udecode/plate-media",
     "@udecode/plate-highlight"
   ],

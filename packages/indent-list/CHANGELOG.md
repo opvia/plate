@@ -1,4 +1,4 @@
-# @udecode/plate-indent-list
+# @seal.run/plate-indent-list
 
 ## 44.0.0
 
@@ -44,7 +44,7 @@
 
 - [#3830](https://github.com/udecode/plate/pull/3830) by [@felixfeng33](https://github.com/felixfeng33) –
   - Move `render.belowNodes` from `IndentListPlugin` to `BaseIndentListPlugin`. Props type for `listStyleTypes.liComponent` and `listStyleTypes.markerComponent` options is now `SlateRenderElementProps` instead of `PlateRenderElementProps`
-  - Move `someIndentList`, `someIndentTodo` from `@udecode/plate-indent-list/react` to `@udecode/plate-indent-list`
+  - Move `someIndentList`, `someIndentTodo` from `@seal.run/plate-indent-list/react` to `@seal.run/plate-indent-list`
 
 ### Patch Changes
 
@@ -527,4 +527,4 @@
 
 ### Minor Changes
 
-- [#1190](https://github.com/udecode/plate/pull/1190) by [@zbeyens](https://github.com/zbeyens) – new package: `@udecode/plate-indent-list`
+- [#1190](https://github.com/udecode/plate/pull/1190) by [@zbeyens](https://github.com/zbeyens) – new package: `@seal.run/plate-indent-list`

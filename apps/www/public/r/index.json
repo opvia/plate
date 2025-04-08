@@ -1100,7 +1100,7 @@
       "@udecode/plate-code-block",
       "@udecode/plate-date",
       "@udecode/plate-heading",
-      "@udecode/plate-indent-list",
+      "@seal.run/plate-indent-list",
       "@udecode/plate-table",
       "@udecode/plate-toggle"
     ],
@@ -1828,7 +1828,7 @@
       "@udecode/plate-ai",
       "@udecode/plate-block-quote",
       "@udecode/plate-heading",
-      "@udecode/plate-indent-list",
+      "@seal.run/plate-indent-list",
       "@udecode/plate-selection"
     ],
     "doc": {
@@ -2336,7 +2336,7 @@
     "dependencies": [
       "@udecode/plate-basic-marks",
       "@udecode/plate-font",
-      "@udecode/plate-indent-list",
+      "@seal.run/plate-indent-list",
       "@udecode/plate-media",
       "@udecode/plate-highlight"
     ],
@@ -2575,7 +2575,7 @@
   },
   {
     "dependencies": [
-      "@udecode/plate-indent-list"
+      "@seal.run/plate-indent-list"
     ],
     "doc": {
       "description": "A toolbar control for adjusting list indentation.",
@@ -2602,7 +2602,7 @@
   },
   {
     "dependencies": [
-      "@udecode/plate-indent-list"
+      "@seal.run/plate-indent-list"
     ],
     "doc": {
       "description": "A checkbox marker for interactive todo lists.",
@@ -2636,7 +2636,7 @@
   },
   {
     "dependencies": [
-      "@udecode/plate-indent-list"
+      "@seal.run/plate-indent-list"
     ],
     "doc": {
       "description": "A toolbar control for creating todo list items.",
@@ -2728,7 +2728,7 @@
       "@udecode/plate-excalidraw",
       "@udecode/plate-heading",
       "@udecode/plate-horizontal-rule",
-      "@udecode/plate-indent-list",
+      "@seal.run/plate-indent-list",
       "@udecode/plate-link",
       "@udecode/plate-media",
       "@udecode/plate-table",
@@ -3258,7 +3258,7 @@
       "@udecode/plate-block-quote",
       "@udecode/plate-code-block",
       "@udecode/plate-heading",
-      "@udecode/plate-indent-list",
+      "@seal.run/plate-indent-list",
       "@udecode/plate-toggle"
     ],
     "doc": {

@@ -10,7 +10,7 @@ import {
 } from '@udecode/plate-code-block';
 import { CodeBlockPlugin } from '@udecode/plate-code-block/react';
 import { HEADING_LEVELS } from '@udecode/plate-heading';
-import { INDENT_LIST_KEYS, ListStyleType } from '@udecode/plate-indent-list';
+import { INDENT_LIST_KEYS, ListStyleType } from '@seal.run/plate-indent-list';
 import { ResetNodePlugin } from '@udecode/plate-reset-node/react';
 
 const resetBlockTypesCommonRule = {

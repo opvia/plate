@@ -7,7 +7,7 @@ import { useReadOnly } from '@udecode/plate/react';
 import {
   useIndentTodoListElement,
   useIndentTodoListElementState,
-} from '@udecode/plate-indent-list/react';
+} from '@seal.run/plate-indent-list/react';
 
 import { Checkbox } from './checkbox';
 

@@ -9,7 +9,7 @@ import { CodeBlockPlugin } from '@udecode/plate-code-block/react';
 import { DatePlugin } from '@udecode/plate-date/react';
 import { HEADING_KEYS } from '@udecode/plate-heading';
 import { TocPlugin } from '@udecode/plate-heading/react';
-import { INDENT_LIST_KEYS, ListStyleType } from '@udecode/plate-indent-list';
+import { INDENT_LIST_KEYS, ListStyleType } from '@seal.run/plate-indent-list';
 import {
   EquationPlugin,
   InlineEquationPlugin,

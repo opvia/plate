@@ -36,7 +36,7 @@ import {
   INDENT_LIST_KEYS,
   ListStyleType,
   toggleIndentList,
-} from '@udecode/plate-indent-list';
+} from '@seal.run/plate-indent-list';
 import { TogglePlugin, openNextToggles } from '@udecode/plate-toggle/react';
 
 export const format = (editor: SlateEditor, customFormatting: any) => {

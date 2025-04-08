@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "@udecode/plate-indent-list"
+    "@seal.run/plate-indent-list"
   ],
   "doc": {
     "description": "A checkbox marker for interactive todo lists.",
@@ -19,7 +19,7 @@
   "files": [
     {
       "path": "plate-ui/indent-todo-marker.tsx",
-      "content": "'use client';\n\nimport type { SlateRenderElementProps } from '@udecode/plate';\n\nimport { cn } from '@udecode/cn';\nimport {\n  useIndentTodoListElement,\n  useIndentTodoListElementState,\n} from '@udecode/plate-indent-list/react';\nimport { useReadOnly } from '@udecode/plate/react';\n\nimport { Checkbox } from './checkbox';\n\nexport const TodoMarker = ({\n  element,\n}: Omit<SlateRenderElementProps, 'children'>) => {\n  const state = useIndentTodoListElementState({ element });\n  const { checkboxProps } = useIndentTodoListElement(state);\n  const readOnly = useReadOnly();\n\n  return (\n    <div contentEditable={false}>\n      <Checkbox\n        className={cn(\n          'absolute top-1 -left-6',\n          readOnly && 'pointer-events-none'\n        )}\n        {...checkboxProps}\n      />\n    </div>\n  );\n};\n\nexport const TodoLi = (props: SlateRenderElementProps) => {\n  const { children, element } = props;\n\n  return (\n    <li\n      className={cn(\n        'list-none',\n        (element.checked as boolean) && 'text-muted-foreground line-through'\n      )}\n    >\n      {children}\n    </li>\n  );\n};\n",
+      "content": "'use client';\n\nimport type { SlateRenderElementProps } from '@udecode/plate';\n\nimport { cn } from '@udecode/cn';\nimport {\n  useIndentTodoListElement,\n  useIndentTodoListElementState,\n} from '@seal.run/plate-indent-list/react';\nimport { useReadOnly } from '@udecode/plate/react';\n\nimport { Checkbox } from './checkbox';\n\nexport const TodoMarker = ({\n  element,\n}: Omit<SlateRenderElementProps, 'children'>) => {\n  const state = useIndentTodoListElementState({ element });\n  const { checkboxProps } = useIndentTodoListElement(state);\n  const readOnly = useReadOnly();\n\n  return (\n    <div contentEditable={false}>\n      <Checkbox\n        className={cn(\n          'absolute top-1 -left-6',\n          readOnly && 'pointer-events-none'\n        )}\n        {...checkboxProps}\n      />\n    </div>\n  );\n};\n\nexport const TodoLi = (props: SlateRenderElementProps) => {\n  const { children, element } = props;\n\n  return (\n    <li\n      className={cn(\n        'list-none',\n        (element.checked as boolean) && 'text-muted-foreground line-through'\n      )}\n    >\n      {children}\n    </li>\n  );\n};\n",
       "type": "registry:ui",
       "target": "components/plate-ui/indent-todo-marker.tsx"
     },

@@ -348,7 +348,7 @@ Migration:
   - `@udecode/plate-highlight`
   - `@udecode/plate-horizontal-rule`
   - `@udecode/plate-indent`
-  - `@udecode/plate-indent-list`
+  - `@seal.run/plate-indent-list`
   - `@udecode/plate-kbd`
   - `@udecode/plate-line-height`
   - `@udecode/plate-link`
@@ -1027,7 +1027,7 @@ getEmptyTableNode(editor, { rowCount: 2, colCount: 2 });
 
 # 8.0.0
 
-## @udecode/plate-indent-list@8.0.0
+## @seal.run/plate-indent-list@8.0.0
 
 - [#1234](https://github.com/udecode/plate/pull/1234) by [@zbeyens](https://github.com/zbeyens) – Removed:
 
